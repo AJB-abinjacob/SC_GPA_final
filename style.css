@@ -1,0 +1,91 @@
+body {
+    margin: 0%;
+    font-family: tahoma;
+}
+
+.class {
+    border-width: 1%;
+}
+
+h1 {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    font-weight: bold;
+}
+
+.texthead {
+    font-weight: bold;
+}
+
+.text {
+    width: 30%;
+    margin: 1%;
+}
+
+input[readonly] {
+    width: 30%;
+    margin: 1%;
+    font-size: 90%;
+    text-align: center;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
+.grade {
+    border: 0px none;
+    text-align: center;
+    width: 30%;
+    border-radius: 3%;
+    margin-left: 1%;
+    border-radius: 5px;
+}
+
+.sgpa-div-result-btn {
+    text-align: center;
+    width: 100%;
+}
+
+.cgpa-div-result-btn {
+    text-align: center;
+    width: 100%;
+}
+
+/*print*/
+#show {
+    margin-top: 50px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#show th,#show td {
+    padding: 13px;
+}
+
+#btna td {
+    width: 100%;
+}
+
+.print {
+    margin-left: auto;
+    margin-right: auto;
+}
+.btnprint{
+    width: 100%;
+    
+}
+@media print {
+    @page {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+.btn-result{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
